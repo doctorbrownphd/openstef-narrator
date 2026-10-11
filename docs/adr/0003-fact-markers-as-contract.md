@@ -1,0 +1,3 @@
+# «fact» markers are the data contract, not just UI decoration
+
+The `«»` guillemet delimiters around injected numeric values serve three roles simultaneously: visual highlighting in the UI, hallucination boundary enforcement during LLM rewrite, and traceability markers in the audit trail. We considered separating these concerns (markers for UI, a separate facts dict for validation, explicit trace fields for audit) but the single-format approach means one text representation serves all consumers. Formatters that need clean text strip markers with a one-liner regex. The cost of the shared format is minimal; the benefit is that adding a fact to the template automatically makes it visible, validated, and auditable everywhere.

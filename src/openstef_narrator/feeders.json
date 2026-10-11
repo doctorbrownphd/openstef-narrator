@@ -1,0 +1,57 @@
+[
+  {
+    "id": "feeder7",
+    "name": "Feeder 7",
+    "district": "Eastgate",
+    "capacity_mw": 8.4,
+    "base_load_mw": 4.2,
+    "peak_pct": 0.96,
+    "band_width": 0.075,
+    "scenario": "peak_forecast",
+    "confidence": "Moderate"
+  },
+  {
+    "id": "feeder12",
+    "name": "Feeder 12",
+    "district": "Mill District",
+    "capacity_mw": 5.0,
+    "base_load_mw": 2.9,
+    "peak_pct": 1.01,
+    "band_width": 0.065,
+    "scenario": "overload_risk",
+    "confidence": "Moderate"
+  },
+  {
+    "id": "feeder9",
+    "name": "Feeder 9",
+    "district": "Northborough",
+    "capacity_mw": 7.0,
+    "base_load_mw": 3.6,
+    "peak_pct": 0.88,
+    "band_width": 0.08,
+    "scenario": "demand_response",
+    "confidence": "Moderate"
+  },
+  {
+    "id": "feeder5",
+    "name": "Feeder 5",
+    "district": "Lakeside",
+    "capacity_mw": 6.2,
+    "base_load_mw": 3.0,
+    "peak_pct": 0.84,
+    "band_width": 0.17,
+    "scenario": "low_confidence",
+    "confidence": "Low"
+  },
+  {
+    "id": "feeder3",
+    "name": "Feeder 3",
+    "district": "Riverside",
+    "capacity_mw": 11.0,
+    "base_load_mw": 5.4,
+    "peak_pct": 0.62,
+    "band_width": 0.05,
+    "scenario": "all_clear",
+    "confidence": "High"
+  }
+]

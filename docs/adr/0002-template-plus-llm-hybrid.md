@@ -1,0 +1,3 @@
+# Template engine produces the draft, LLM rewrites the prose
+
+The narrator uses a two-stage architecture: a deterministic template engine injects all numeric facts into a structured draft, then an LLM rewrites the connective prose between facts while preserving all `«fact»` markers. We considered pure LLM generation (risk: hallucinated numbers), pure templates (risk: robotic prose), and post-hoc validation (risk: latency from checking every number). The hybrid gives natural language from the LLM with zero hallucination risk on numbers, because the LLM never generates numbers — it only generates the words that connect them. When the LLM is unavailable, the template output ships unchanged — it's already operator-grade prose.
